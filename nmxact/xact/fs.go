@@ -22,9 +22,9 @@ package xact
 import (
 	"fmt"
 
-	"mynewt.apache.org/newtmgr/nmxact/mgmt"
-	"mynewt.apache.org/newtmgr/nmxact/nmp"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/mgmt"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmp"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/sesn"
 )
 
 //////////////////////////////////////////////////////////////////////////////

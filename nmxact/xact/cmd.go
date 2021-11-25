@@ -22,7 +22,7 @@ package xact
 import (
 	"fmt"
 
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/sesn"
 )
 
 type Result interface {

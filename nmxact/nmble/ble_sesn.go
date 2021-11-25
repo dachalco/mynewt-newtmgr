@@ -24,10 +24,10 @@ import (
 
 	"github.com/runtimeco/go-coap"
 
-	. "mynewt.apache.org/newtmgr/nmxact/bledefs"
-	"mynewt.apache.org/newtmgr/nmxact/nmcoap"
-	"mynewt.apache.org/newtmgr/nmxact/nmp"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	. "github.com/dachalco/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmp"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/sesn"
 )
 
 type BleSesn struct {

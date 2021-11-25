@@ -26,12 +26,12 @@ import (
 
 	"github.com/runtimeco/go-coap"
 
-	"mynewt.apache.org/newtmgr/nmxact/mgmt"
-	"mynewt.apache.org/newtmgr/nmxact/nmcoap"
-	"mynewt.apache.org/newtmgr/nmxact/nmp"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/omp"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/mgmt"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmp"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/omp"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/sesn"
 )
 
 type SerialSesn struct {

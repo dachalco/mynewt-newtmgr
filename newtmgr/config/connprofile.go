@@ -31,7 +31,7 @@ import (
 	"sort"
 
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
+	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
 )
 
 type ConnProfileMgr struct {

@@ -24,9 +24,9 @@ import (
 
 	"github.com/runtimeco/go-coap"
 
-	"mynewt.apache.org/newtmgr/nmxact/nmcoap"
-	"mynewt.apache.org/newtmgr/nmxact/nmp"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmp"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmxutil"
 )
 
 // TxRxMgmt sends a management command (NMP / OMP) and listens for the

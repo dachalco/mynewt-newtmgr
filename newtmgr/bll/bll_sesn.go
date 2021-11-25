@@ -32,14 +32,14 @@ import (
 	"golang.org/x/net/context"
 
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
-	"mynewt.apache.org/newtmgr/nmxact/mgmt"
-	"mynewt.apache.org/newtmgr/nmxact/nmble"
-	"mynewt.apache.org/newtmgr/nmxact/nmcoap"
-	"mynewt.apache.org/newtmgr/nmxact/nmp"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/mgmt"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmble"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmp"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/sesn"
 )
 
 // A session that uses the host machine's native BLE support.

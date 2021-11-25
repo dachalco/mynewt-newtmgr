@@ -30,11 +30,11 @@ import (
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 	"gopkg.in/abiosoft/ishell.v2"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/nmcoap"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
-	"mynewt.apache.org/newtmgr/nmxact/xact"
+	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/sesn"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/xact"
 )
 
 var ObserverId int

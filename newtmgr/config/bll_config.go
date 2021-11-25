@@ -30,9 +30,9 @@ import (
 	"github.com/JuulLabs-OSS/ble"
 
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/bll"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
+	"github.com/dachalco/mynewt-newtmgr/newtmgr/bll"
+	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/bledefs"
 )
 
 type BllConfig struct {

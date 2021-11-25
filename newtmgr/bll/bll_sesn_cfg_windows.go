@@ -24,8 +24,8 @@ package bll
 import (
 	"time"
 
-	"mynewt.apache.org/newtmgr/nmxact/nmcoap"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/sesn"
 )
 
 type BllSesnCfg struct {

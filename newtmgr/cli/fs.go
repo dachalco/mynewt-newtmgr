@@ -27,9 +27,9 @@ import (
 	"github.com/spf13/cobra"
 
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/nmp"
-	"mynewt.apache.org/newtmgr/nmxact/xact"
+	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmp"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/xact"
 )
 
 func fsDownloadRunCmd(cmd *cobra.Command, args []string) {

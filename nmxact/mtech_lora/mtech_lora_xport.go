@@ -33,9 +33,9 @@ import (
 	"github.com/runtimeco/go-coap"
 	"github.com/ugorji/go/codec"
 
-	"mynewt.apache.org/newtmgr/nmxact/lora"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/lora"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/sesn"
 )
 
 type LoraConfig struct {

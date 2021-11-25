@@ -25,16 +25,16 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/bll"
-	"mynewt.apache.org/newtmgr/newtmgr/config"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/mtech_lora"
-	"mynewt.apache.org/newtmgr/nmxact/nmble"
-	"mynewt.apache.org/newtmgr/nmxact/nmcoap"
-	"mynewt.apache.org/newtmgr/nmxact/nmserial"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
-	"mynewt.apache.org/newtmgr/nmxact/udp"
-	"mynewt.apache.org/newtmgr/nmxact/xport"
+	"github.com/dachalco/mynewt-newtmgr/newtmgr/bll"
+	"github.com/dachalco/mynewt-newtmgr/newtmgr/config"
+	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/mtech_lora"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmble"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmserial"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/sesn"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/udp"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/xport"
 )
 
 var globalSesn sesn.Sesn

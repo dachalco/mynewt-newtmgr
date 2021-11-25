@@ -28,10 +28,10 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"mynewt.apache.org/newt/util/unixchild"
-	. "mynewt.apache.org/newtmgr/nmxact/bledefs"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
-	"mynewt.apache.org/newtmgr/nmxact/task"
+	. "github.com/dachalco/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/sesn"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/task"
 )
 
 type XportCfg struct {
