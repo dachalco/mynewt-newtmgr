@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"strings"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/config"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
 

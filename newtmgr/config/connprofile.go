@@ -20,8 +20,8 @@
 package config
 
 import (
-	log "github.com/sirupsen/logrus"
 	"github.com/mitchellh/go-homedir"
+	log "github.com/sirupsen/logrus"
 
 	"encoding/json"
 	"fmt"
@@ -30,7 +30,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
 )
 

@@ -24,7 +24,7 @@ package config
 import (
 	"fmt"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/bll"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/bledefs"
 )
@@ -34,7 +34,7 @@ type BllConfig struct {
 	OwnAddrType bledefs.BleAddrType
 	PeerId      string
 	PeerName    string
-	HciIdx	    int
+	HciIdx      int
 }
 
 func NewBllConfig() *BllConfig {

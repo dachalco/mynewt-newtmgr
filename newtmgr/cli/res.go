@@ -30,7 +30,7 @@ import (
 	"github.com/runtimeco/go-coap"
 	"github.com/spf13/cobra"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/nmcoap"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/nmxutil"

@@ -27,7 +27,7 @@ import (
 	"github.com/runtimeco/go-coap"
 	log "github.com/sirupsen/logrus"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	. "github.com/dachalco/mynewt-newtmgr/nmxact/bledefs"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/mgmt"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/nmcoap"

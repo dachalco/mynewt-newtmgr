@@ -25,7 +25,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/nmxutil"
 )

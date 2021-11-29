@@ -31,7 +31,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/bledefs"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/mgmt"

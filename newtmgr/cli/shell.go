@@ -22,10 +22,10 @@ package cli
 import (
 	"fmt"
 
-	"github.com/spf13/cobra"
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/xact"
+	"github.com/spf13/cobra"
 )
 
 func shellExecCmd(cmd *cobra.Command, args []string) {

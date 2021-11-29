@@ -29,7 +29,7 @@ import (
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/cli"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/config"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
-	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmxact/nmserial"
+	"github.com/dachalco/mynewt-newtmgr/nmxact/nmserial"
 )
 
 func isSerial() bool {

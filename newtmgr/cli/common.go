@@ -24,7 +24,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/bll"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/config"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"

@@ -27,7 +27,7 @@ import (
 	"io"
 	"os"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 )
 
 type CoreConvert struct {

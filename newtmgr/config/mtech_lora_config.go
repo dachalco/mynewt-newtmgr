@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/lora"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/mtech_lora"

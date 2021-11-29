@@ -24,9 +24,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/nmserial"
-	"mynewt.apache.org/newt/util"
 )
 
 func einvalSerialConnString(f string, args ...interface{}) error {

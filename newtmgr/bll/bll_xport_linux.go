@@ -26,7 +26,7 @@ import (
 	"github.com/JuulLabs-OSS/ble/linux"
 	"github.com/JuulLabs-OSS/ble/linux/hci/cmd"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/bledefs"
 )
 

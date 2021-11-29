@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/bledefs"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/nmble"

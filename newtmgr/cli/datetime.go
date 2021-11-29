@@ -25,7 +25,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"mynewt.apache.org/newt/util"
+	"github.com/dachalco/mynewt-newt/util"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/sesn"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/xact"
