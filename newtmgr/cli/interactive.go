@@ -26,15 +26,15 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/runtimeco/go-coap"
-	"github.com/spf13/cast"
-	"github.com/spf13/cobra"
-	"gopkg.in/abiosoft/ishell.v2"
+	"github.com/abiosoft/ishell/v2"
 	"github.com/dachalco/mynewt-newtmgr/newtmgr/nmutil"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/nmcoap"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/nmxutil"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/sesn"
 	"github.com/dachalco/mynewt-newtmgr/nmxact/xact"
+	"github.com/runtimeco/go-coap"
+	"github.com/spf13/cast"
+	"github.com/spf13/cobra"
 )
 
 var ObserverId int
