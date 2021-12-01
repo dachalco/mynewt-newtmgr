@@ -98,6 +98,7 @@ func DecodeNmpHdr(data []byte) (*NmpHdr, error) {
 	hdr.Group = binary.BigEndian.Uint16(data[4:6])
 	hdr.Seq = uint8(data[6])
 	hdr.Id = uint8(data[7])
+	fmt.Printf("Header: %+v\n", hdr)
 
 	return hdr, nil
 }

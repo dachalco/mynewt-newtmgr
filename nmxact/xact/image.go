@@ -46,6 +46,7 @@ const IMAGE_UPLOAD_START_WS = 1
 const IMAGE_UPLOAD_DEF_MAX_WS = 5
 const IMAGE_UPLOAD_STATUS_EXPECTED = 0
 const IMAGE_UPLOAD_STATUS_RQ = 1
+const IMAGE_UPLOAD_CHUNK_ALIGNMENT = 4
 
 type ImageUploadProgressFn func(c *ImageUploadCmd, r *nmp.ImageUploadRsp)
 type ImageUploadCmd struct {
@@ -148,6 +149,14 @@ func findChunkLen(s sesn.Sesn, hash []byte, upgrade bool, data []byte,
 		// Encoded length is larger than MTU, we need to make chunk shorter
 		overflow := len(enc) - s.MtuOut()
 		chunklen -= overflow
+	}
+
+	// Align chunk offsets for bootloader
+	rem_bytes := chunklen % IMAGE_UPLOAD_CHUNK_ALIGNMENT
+	if chunklen > IMAGE_UPLOAD_CHUNK_ALIGNMENT {
+		chunklen -= rem_bytes
+	} else {
+		fmt.Print("[DC] Failed to align due to packet smaller than alignment")
 	}
 
 	return chunklen, nil
